@@ -1,3 +1,17 @@
+#' bq_ctas
+#'
+#' @param ctas_qry
+#' @param projectId
+#' @param datasetId
+#' @param tableId
+#' @param createDisposition
+#' @param writeDisposition
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 bq_ctas <- function(ctas_qry, projectId, datasetId, tableId,
                     createDisposition = "CREATE_IF_NEEDED",
                     writeDisposition = "WRITE_EMPTY"){

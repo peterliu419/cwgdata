@@ -1,3 +1,13 @@
+#' post_msg
+#'
+#' @param webhook_url
+#' @param msg
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 post_msg <- function(webhook_url,msg){
   # send message to google chat
   POST(webhook_url,

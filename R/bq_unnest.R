@@ -1,3 +1,14 @@
+#' bq_unnest
+#'
+#' @param qry
+#' @param from_col
+#' @param to_col
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
 bq_unnest <- function(qry, from_col, to_col){
   unnest_qry <- paste0("select * from (",
                        as.character(dbplyr::sql_render(qry)),"),

@@ -1,3 +1,14 @@
+#' bq_add_comment
+#'
+#' @param qry
+#' @param comment
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#'
+
 bq_add_comment <- function(qry, comment){
 
   msg <- try({
