@@ -13,3 +13,4 @@ Imports:
     DBI,
     purrr,
     httr
+RoxygenNote: 7.2.3

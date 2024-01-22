@@ -11,6 +11,16 @@
 #' @export
 #'
 #' @examples
+#'   bq_ctas(
+#'     projectId = "cw-bquery",
+#'     datasetId = "l_cw_data_science",
+#'     tableId = "cw_leadercampus_hr_platform_monthly_podcast",
+#'     writeDisposition = "WRITE_TRUNCATE")
+#'
+#'   bq_ctas("cw-bquery",
+#'    "p_visual",
+#'    "ch_lda_article_dashboard_user_inspector_user_h1_model_uid_topics",
+#'    writeDisposition = "WRITE_TRUNCATE")
 
 bq_ctas <- function(ctas_qry, projectId, datasetId, tableId,
                     createDisposition = "CREATE_IF_NEEDED",
