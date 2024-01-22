@@ -1,0 +1,15 @@
+Package: cwgdata
+Type: Package
+Title: Common Functions for CWG Data Team
+Version: 0.1.0
+Author: peishen.wu@cw.com.tw
+Maintainer: The package maintainer <peterliu@cw.com.tw>
+Description: This is a package to include the commonly used and shared functions within the team
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dbplyr,
+    bigrquery,
+    DBI,
+    purrr,
+    httr
